@@ -12,9 +12,9 @@ namespace Coz.NET.CodeProcessor.Rewriter
     {
         private readonly List<Compilation> compilations;
 
-        public MethodVirtualSpeedupRewriter(List<Compilation> compilations)
+        public MethodVirtualSpeedupRewriter(List<Compilation> compilations = null)
         {
-            this.compilations = compilations;
+            this.compilations = compilations ?? new List<Compilation>();
         }
 
         public override SyntaxNode VisitCompilationUnit(CompilationUnitSyntax node)
