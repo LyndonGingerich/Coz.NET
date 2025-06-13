@@ -1,7 +1,7 @@
 TestApp2/
 Temp_SampleApp.Latency/
 Temp_SampleApp.Latency2/
-Coz/Coz.sln.DotSettings.user
+*.DotSettings.user
 data.txt
 
 **/obj
