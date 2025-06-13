@@ -14,9 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Coz.NET.Profiler">
-      <HintPath>..\..\Coz\Coz.NET.Profiler\bin\Release\netcoreapp3.1\Coz.NET.Profiler.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\Coz\Coz.NET.Profiler\Coz.NET.Profiler.csproj" />
   </ItemGroup>
 
 </Project>
