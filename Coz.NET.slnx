@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Coz\Coz.NET.Agent\Coz.NET.Agent.csproj" Type="Classic C#" />
+  <Project Path="Coz\Coz.NET.CodeProcessor\Coz.NET.CodeProcessor.csproj" Type="Classic C#" />
+  <Project Path="Coz\Coz.NET.Profiler\Coz.NET.Profiler.csproj" Type="Classic C#" />
+  <Project Path="Coz\Coz\Coz.csproj" Type="Classic C#" />
+  <Project Path="SampleApp.Latency\SampleApp.Latency\SampleApp.Latency.csproj" Type="Classic C#" />
+  <Project Path="SampleApp.Throughput\SampleApp.Throughput\SampleApp.Throughput.csproj" Type="Classic C#" />
+</Solution>
