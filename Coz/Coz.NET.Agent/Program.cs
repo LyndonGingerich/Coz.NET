@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
@@ -13,8 +12,8 @@ namespace Coz.NET.Agent
         static void Main(string[] args)
         {
             var codeProcessor = new CodeProcessor.Processor.CodeProcessor();
-            var solutionFolder =          @"C:\Users\tamas\Documents\Coz.NET\SampleApp.Latency";
-            var generatedSolutionFolder = @"C:\Users\tamas\Documents\Coz.NET\Temp_SampleApp.Latency";
+            var solutionFolder =          @"..\..\SampleApp.Latency";
+            var generatedSolutionFolder = @"..\..\Temp_SampleApp.Latency";
             var solutionFilename = @"SampleApp.Latency.sln";
             var excludedMethodIds = new List<string> {$@"{generatedSolutionFolder}\SampleApp.Latency\Program.cs:Main" };
             var executablePath = $@"{generatedSolutionFolder}\SampleApp.Latency\bin\Release\netcoreapp3.1\SampleApp.Latency.exe";

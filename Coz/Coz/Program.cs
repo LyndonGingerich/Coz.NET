@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text.RegularExpressions;
 using Coz.NET.CodeProcessor.Rewriter;
 using Microsoft.Build.Locator;
 using Microsoft.CodeAnalysis;
@@ -20,8 +18,8 @@ namespace Coz
             var workspace = MSBuildWorkspace.Create();
             workspace.WorkspaceFailed += (sender, e) => Console.WriteLine($"[failed] {e.Diagnostic}");
             var solutionFile = @"TestApp.sln";
-            var solutionFolder = @"C:\Users\tamas\Documents\Coz.NET\TestApp";
-            var copiedSolutionFolder = @"C:\Users\tamas\Documents\Coz.NET\TestApp2";
+            var solutionFolder = @"..\..\TestApp";
+            var copiedSolutionFolder = @"..\..\TestApp2";
             CopyFilesRecursively(solutionFolder, copiedSolutionFolder);
 
             var newSolutionPath = Path.Combine(copiedSolutionFolder, solutionFile);

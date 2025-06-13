@@ -5,7 +5,7 @@ namespace Coz.NET.Profiler.IPC
 {
     public class IPCService
     {
-        private const string SHARED_FILE = @"C:\Users\tamas\Documents\Coz.NET\data.txt";
+        private const string SHARED_FILE = @"..\..\..\data.txt";
 
         public void Start()
         {
